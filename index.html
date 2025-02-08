@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Coloque un archivo normalize aparte para mejor gestion del css -->
+    <link rel="stylesheet" href="/assets/css/normalize.css" />
+    <!-- Coloque la ruta de su archivo css bien por que no estaba enlazada correctamente -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <title>APIs</title>
-</head>
-<body>
-    <p class="name"></p>
-    <p class="blog"></p>
-
-  <script src="../assets/js/app.js"></script>
-</body>
+  </head>
+  <body>
+    <div class="table">
+      <h1 class="name"></h1>
+      <p class="location"></p>
+      <img src="" alt="Imagen de perfil" class="avatar" />
+      <p class="blog"></p>
+      <p class="seguidores"></p>
+    </div>
+    <!-- Coloque la ruta de su archivo js bien por que no estaba enlazada correctamente -->
+    <script type="module" src="/assets/js/app.js"></script>
+  </body>
 </html>
